@@ -1,0 +1,111 @@
+* { margin: 0; padding: 0; }
+
+a { text-decoration: none; }
+
+
+
+#list {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  background: white;
+  margin: 20px 30px;
+  padding: 10px;
+}
+
+#list td, #list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#list tr:nth-child(even){background-color: #f2f2f2;}
+
+#list tr:hover {background-color: #ddd;}
+
+#list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+#rlist {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  background: #ffcccc;
+  margin: 20px 30px;
+  padding: 10px;
+}
+
+#rlist td, #rlist th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#rlist tr:nth-child(even){background-color: #f2f2f2;}
+
+#rlist tr:hover {background-color: #ddd;}
+
+#rlist th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ff1a1a;
+  color: white;
+}
+#rlist td{
+	color: #cc0000;
+}
+
+.profile{
+	position: relative;
+    cursor: pointer;
+	display: inline-block;
+  background: #fffae6;
+  margin: 20px 30px;
+  padding: 10px;
+ /* float: right;*/
+}
+
+.profile .dprofile img{
+
+	width: 250px; height: 250px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.trance{
+	position: relative;
+    cursor: pointer;
+    display: inline-block;
+  background: #e6ffcc;
+  margin: 20px 30px;
+  padding: 10px;
+}
+
+.profile.dprofile button{
+	margin: 0 auto;
+	color: green;
+}
+.error{
+	background: red;
+	color: white;
+	padding: 10px;
+	width: 40%;
+}
+table.userlist{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.userlist th{
+	background: #aaa;
+}
+
+table.userlist th, table.userlist td{
+	padding: 10px;
+	border-bottom: 1px solid #aaa;
+	text-align: left;
+}
+

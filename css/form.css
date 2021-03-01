@@ -1,0 +1,146 @@
+
+
+.login{
+	width: 350px;
+	margin: 100px auto;
+
+}
+
+
+
+.error{
+	background: red;
+	color: white;
+	padding: 10px;
+	width: 40%;
+}
+.lerror{
+	background: #ff4000;
+	color: white;
+	padding: 10px;
+	width: 40%;
+}
+.ok{
+	background: #008000;
+	color: white;
+	padding: 10px;
+	width: 40%;
+}
+
+.redtext{
+	background: white;
+	color: red;
+	padding: 10px;
+	width: 40%;
+}
+
+.greentext{
+	background: white;
+	color: green;
+	padding: 10px;
+	width: 40%;
+}
+
+input.txt {
+	display: block;
+	width: 100%;
+	margin: 5px;
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+button.add{
+	width: 100%;
+	padding: 5px;
+	margin: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.log{
+	font-family: Arial,"Helvetica", Helvetica, sans-serif;
+	display: block;
+	width: 100%;
+	padding: 5px;
+	margin: 5px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+input.logtxt {
+	display: block;
+	width: 100%;
+	padding: 5px;
+	margin: 5px -5px 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+	font-size: 14px;
+
+}
+button.logadd{
+	width: 100%;
+	padding: 5px;
+	margin: 5px -10px 5px 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+div.register{
+	width: 80%;
+	margin: 100px auto;
+	/*float: right;*/
+}
+
+.register label{
+	font-size: 18px;
+	width: 30%;
+	margin-left: 5%;
+
+	float: left;
+}
+
+.register input{
+	width: 60%;
+}
+
+.register button{
+	width: 30%;
+
+}
+
+main{
+	width: 1000px;
+	margin: 30px auto;
+
+}
+
+table.userlist{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.userlist th{
+	background: #aaa;
+}
+
+table.userlist th, table.userlist td{
+	padding: 10px;
+	border-bottom: 1px solid #aaa;
+	text-align: left;
+}
+
+h2{
+	color: green;
+}
+
+.menulist{
+	float: left;
+	position: fixed;
+}

@@ -1,0 +1,292 @@
+* { margin: 0; padding: 0; }
+
+a { text-decoration: none; }
+/*
+body{
+	background-size: cover;
+}
+*/
+.clearfix { overflow: auto }
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	/*margin: 0; padding: 0;*/
+}
+
+.top-bar {
+	width: 100%;
+	background: #ff9900;
+	/*margin: 0; padding: 0;*/
+}
+
+.top-bar-links {
+	float: left;
+}
+
+.top-bar-links ul {
+	margin: 15px;
+	list-style: none;
+}
+
+.top-bar-links ul li {
+	padding: 0 10px;
+	display: inline-block;
+	border-right: 1px solid white;
+}
+
+.top-bar-links ul li:last-child {
+	border: 0;
+}
+
+.top-bar-links ul li a {
+	color: white;
+}
+
+.top-bar-search {
+	padding: 3px 5px 3px 10px ; 
+	margin: 10px;
+	float: right;
+	background: white;
+	border-radius: 10px;
+}
+
+.top-bar-search .search {
+	border: 0;
+	float: left;
+	font-size:25px;
+}
+
+.top-bar-search button {
+	width: 25px;
+	height: 25px;
+	background: url('../img/icon/search.png');
+	border: 0;
+	float: right;
+}
+
+nav.title{
+	background: black;
+	background: linear-gradient(#333, #444, #333);
+	border-radius: 5px;
+}
+nav.title ul{
+	list-style: none;
+}
+nav.title ul li{
+	display: inline;
+}
+nav.title ul li a{
+	color: #fff;
+	text-transform: uppercase;
+	margin: 10px 40px 10px 40px;
+	margin-left: 20px; margin-right: 20px;
+	margin-top: 10px; margin-bottom: 10px;
+	display: inline-block;
+}
+
+nav.title ul li a:hover{
+	color: yellow;
+}
+
+header {
+	background: linear-gradient(#fffae6, #f5f5f0);
+	margin: 0; padding: 0;
+}
+footer {
+	background: linear-gradient(#f5f5f0,#fffae6);
+	margin: 0; padding: 0;
+}
+header .logo {
+	
+	margin-left: 20px;
+}
+header .logo h1{
+	font-size: 48px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+
+}
+
+.container{
+    width: 100%;
+    position: relative;
+    
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    /*margin: -10px;*/
+   /* margin-left: -15px;*/
+    margin-top: 10px;
+	
+}
+
+.container .card{
+    position: relative;
+    cursor: pointer;
+	padding: 5px;
+	display: flex;
+	
+	box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+
+}
+
+.container .card .face{
+    width: 300px;
+    height: relative;
+    position: relative;
+    background: #fff0b3;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+	border: 1px solid #ffa500;
+}
+
+.container .card .cart{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    background: #fff0b3;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+	border: 1px solid #ffa500;
+}
+.container .card .cart .content1 img{
+    max-width: 100px;
+}
+
+button.logadd{
+	width: 100%;
+	padding: 5px;
+	margin: 5px -10px 5px 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+.container .card:hover .face{
+    background: #fff0b3;
+}
+
+.container .card .face .content1{
+    opacity: 0.8;
+    background: #fff;
+}
+.container .card .face .content2{
+    opacity: 0.2;
+}
+
+.container .card:hover .face .content1{
+    opacity: 1;
+    background: #fff;
+}
+.container .card:hover .face .content2{
+    opacity: 1;
+}
+
+.container .card .face .content1 img{
+    max-width: 100px;
+}
+
+.container .card .face .content1 h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container .card .face .content2{
+    position: relative;
+    
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.container .card .face .content2 p{
+    margin: 0;
+    padding: 0;
+}
+
+.container .card .face .content2 a{
+    margin: 5px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 1px;
+    /*border: 1px solid #333;*/
+}
+
+.container .card .face .content2 a:hover{
+    background: #333;
+    color: #fff;
+}
+
+nav.mune{
+	overflow-y: auto;
+}
+
+.menunavi{
+	
+	background: #f1f1f1;
+	width: 20%;
+	height: 100%;
+	overflow: auto;
+	position: fixed;
+}
+.nmenunavi{
+	margin-top: 1px;
+	/*margin: 0 auto;*/
+	background: #f1f1f1;
+	width: 20%;
+	height: 100%;
+	overflow: auto;
+	position: fixed;
+}
+.menu button{
+	overflow: auto;
+	position: fixed;
+	font-size: 25px;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  height: 80%;
+  background-color: #f1f1f1;
+  position: fixed;
+  overflow-y: auto;
+}
+
+.menu li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Change the link color on hover */
+.menu li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.blink{
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {  
+    0% { opacity: 0; }
+}
