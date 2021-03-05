@@ -1,0 +1,9 @@
+SELECT * FROM (SELECT city, length(city) 
+  FROM station
+  WHERE LENGTH(city)=(SELECT MIN(LENGTH(city)) FROM station) ORDER BY city ) 
+  WHERE ROWNUM =1;
+  
+  SELECT * FROM (SELECT city, length(city) 
+  FROM station
+  WHERE LENGTH(city)=(SELECT MAX(LENGTH(city)) FROM station) ORDER BY city ) 
+  WHERE ROWNUM =1;
